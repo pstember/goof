@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "error": "getaddrinfo ENOTFOUND snyk.io",
+  "path": "/Users/pstember/Git/goof"
+}

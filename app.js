@@ -3,7 +3,7 @@
  */
 
 const snyk = require('@snyk/nodejs-runtime-agent')
-snyk({
+snyk({ 
   projectId: process.env.SNYK_PROJECT_ID,
 });
 
