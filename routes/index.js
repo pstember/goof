@@ -55,6 +55,8 @@ exports.admin = function (req, res, next) {
 function parse(todo) {
   var t = todo;
 
+  var unsued = ' at ';
+
   var remindToken = ' in ';
   var reminder = t.toString().indexOf(remindToken);
   if (reminder > 0) {
